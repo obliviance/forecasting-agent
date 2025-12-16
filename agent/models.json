@@ -1,0 +1,17 @@
+{
+    "gemma": {
+        "name": "google/gemma-3-27b-it:free",
+        "temperature": 0.7,
+        "max_tokens": 1500
+    },
+    "gemini3pro": {
+        "name": "google/gemini-3-pro-preview",
+        "temperature": 0.5,
+        "max_tokens": 2000
+    },
+    "gemini3": {
+        "name": "google/gemini-3-preview",
+        "temperature": 0.5,
+        "max_tokens": 2000
+    }
+}
