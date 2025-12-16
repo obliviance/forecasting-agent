@@ -1,0 +1,61 @@
+{
+  "timestamp": "2025-12-16T03:01:41.075800",
+  "aggregate_metrics": {
+    "total_evaluated": 5,
+    "successful": 0,
+    "failed": 5,
+    "average_brier_score": null,
+    "average_log_loss": null,
+    "min_brier_score": null,
+    "max_brier_score": null,
+    "min_log_loss": null,
+    "max_log_loss": null
+  },
+  "individual_results": [
+    {
+      "index": 0,
+      "question": "Will the CDC's assessment of the risk posed by mpox to the US general public exceed \"Very Low\" befor...",
+      "error": "Agent error: 'str' object has no attribute 'forecast'",
+      "ground_truth": 0.14,
+      "prediction": null,
+      "brier_score": null,
+      "log_loss": null
+    },
+    {
+      "index": 1,
+      "question": "Will the CDC's assessment of the risk posed by mpox to the US general public exceed \"Low\" before Oct...",
+      "error": "Agent error: 'str' object has no attribute 'forecast'",
+      "ground_truth": 0.15,
+      "prediction": null,
+      "brier_score": null,
+      "log_loss": null
+    },
+    {
+      "index": 2,
+      "question": "Will Greg Brockman return to OpenAI following his leave of absence before October 1, 2024?",
+      "error": "Agent error: 'str' object has no attribute 'forecast'",
+      "ground_truth": 0.38,
+      "prediction": null,
+      "brier_score": null,
+      "log_loss": null
+    },
+    {
+      "index": 3,
+      "question": "Will Robert F. Kennedy Jr. suspend his 2024 presidential campaign by October 22, 2024?",
+      "error": "Agent error: 'str' object has no attribute 'forecast'",
+      "ground_truth": 0.99,
+      "prediction": null,
+      "brier_score": null,
+      "log_loss": null
+    },
+    {
+      "index": 4,
+      "question": "Will the Warren Buffett Indicator exceed 200% before September 17, 2024?",
+      "error": "Agent error: 'str' object has no attribute 'forecast'",
+      "ground_truth": 0.54,
+      "prediction": null,
+      "brier_score": null,
+      "log_loss": null
+    }
+  ]
+}

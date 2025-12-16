@@ -1,6 +1,6 @@
 import json
 
-from base_model import BaseModel
+from .base_model import BaseModel
 
 def decompose_question(question: str) -> list[str]:
     """Decomposes a complex forecasting question into simpler sub-questions."""

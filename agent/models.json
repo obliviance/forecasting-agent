@@ -1,17 +1,45 @@
 {
-    "gemma": {
+    "gemma27b": {
         "name": "google/gemma-3-27b-it:free",
         "temperature": 0.7,
-        "max_tokens": 1500
+        "max_tokens": 1500,
+        "knowledge_cutoff": "2024-08-31"
     },
-    "gemini3pro": {
-        "name": "google/gemini-3-pro-preview",
-        "temperature": 0.5,
-        "max_tokens": 2000
+    "gemma7b": {
+        "name": "google/gemma-3-7b-it:free",
+        "temperature": 0.7,
+        "max_tokens": 1500,
+        "knowledge_cutoff": "2024-08-31"
     },
-    "gemini3": {
-        "name": "google/gemini-3-preview",
+    "gemini2.0flash": {
+        "name": "google/gemini-2-0-flash-7b:free",
+        "temperature": 0.6,
+        "max_tokens": 1200,
+        "knowledge_cutoff": "2024-09-30"
+    },
+    "qwen7b": {
+        "name": "google/qwen-7b:free",
         "temperature": 0.5,
-        "max_tokens": 2000
+        "max_tokens": 1200,
+        "knowledge_cutoff": "2024-09-30"
+    },
+    "phi4mini": {
+        "name": "google/phi-4-mini:free",
+        "temperature": 0.3,
+        "max_tokens": 1000,
+        "knowledge_cutoff": "2024-06-30"
+    },
+    "llama3.370b": {
+        "name": "meta/llama-3-3b:free",
+        "temperature": 0.4,
+        "max_tokens": 1500,
+        "knowledge_cutoff": "2024-10-31"
+    },
+    "llama4scout": {
+        "name": "meta/llama-4-scout-7b:free",
+        "temperature": 0.4,
+        "max_tokens": 1500,
+        "knowledge_cutoff": "2024-10-31"
     }
+    
 }

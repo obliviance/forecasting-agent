@@ -3,15 +3,15 @@ import json
 import os
 import dotenv
 
-import agent_functions
-from base_model import BaseModel
+from . import agent_functions
+from . import base_model
 
 # Load API key from .env file
 dotenv.load_dotenv()
 
 def agentcast(question: str) -> dict[str, str]:
     """Main function to run the forecasting agent."""
-    model = BaseModel(model="gpt-4o-mini", question=question)
+    model = base_model.BaseModel(model="gpt-4o-mini", question=question)
 
     # Step 1: Decompose the question
     sub_questions = agent_functions.decompose_question(question)

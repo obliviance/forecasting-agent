@@ -5,8 +5,6 @@ from typing import Optional
 from datetime import date
 import httpx
 
-from cutoffs import get_cutoff_date
-
 class BaseModel:
 	"""
 	Minimal OpenRouter base model caller.
